@@ -1,6 +1,6 @@
 # Genc Projects Repository
 
-This repository contains a collection of training and learning projects covering various technologies including Spring Boot, Angular, and Java fundamentals.
+This repository contains a collection of training and learning projects covering Java and Spring Boot technologies.
 
 ## Projects Overview
 
@@ -43,35 +43,9 @@ cd demo
 ./mvnw spring-boot:run
 ```
 
-### 🅰️ Angular Applications
-
-#### 3. First Angular App (`first-angular-app/`)
-A basic Angular application for learning Angular fundamentals.
-
-**Technologies:** Angular 18+, TypeScript, CSS
-
-**How to run:**
-```bash
-cd first-angular-app
-npm install
-npm start
-```
-
-#### 4. Welcome Project (`welcome-project/`)
-Another Angular application project for practicing Angular development.
-
-**Technologies:** Angular 18+, TypeScript, CSS
-
-**How to run:**
-```bash
-cd welcome-project
-npm install
-npm start
-```
-
 ### ☕ Java Training
 
-#### 5. Java Training (`javaTraining/`)
+#### 3. Java Training (`javaTraining/`)
 A comprehensive Java training project focusing on SOLID principles and design patterns.
 
 **Topics covered:**
@@ -95,7 +69,7 @@ javac -d bin src/com/example/solid/*.java
 java -cp bin com.example.solid.MainSingle
 ```
 
-#### 6. Maven Project Template (`My-Maven-Project/`)
+#### 4. Maven Project Template (`My-Maven-Project/`)
 A simple Maven project template for Java development.
 
 **Technologies:** Java 21, Maven
@@ -111,11 +85,6 @@ mvn compile exec:java
 ### For Spring Boot Projects:
 - Java 21
 - Maven 3.6+ (or use included Maven wrapper)
-
-### For Angular Projects:
-- Node.js 18+ 
-- npm 8+
-- Angular CLI (`npm install -g @angular/cli`)
 
 ### For Java Training:
 - Java 21
@@ -136,11 +105,11 @@ mvn compile exec:java
    ./mvnw spring-boot:run
    ```
 
-3. **For Angular projects:**
+3. **For Java training:**
    ```bash
-   cd <project-directory>
-   npm install
-   npm start
+   cd javaTraining
+   javac -d bin src/com/example/solid/*.java
+   java -cp bin com.example.solid.MainSingle
    ```
 
 ## Project Structure
@@ -149,8 +118,6 @@ mvn compile exec:java
 Genc-Projects/
 ├── coffeeMachine/          # Spring Boot Coffee Machine App
 ├── demo/                   # Spring Boot Book Management System
-├── first-angular-app/      # Basic Angular Application
-├── welcome-project/        # Angular Welcome Application
 ├── javaTraining/           # Java SOLID Principles Training
 ├── My-Maven-Project/       # Maven Project Template
 ├── README.md              # This file
@@ -161,9 +128,8 @@ Genc-Projects/
 
 This repository demonstrates:
 - **Spring Boot Development**: REST APIs, Security, JPA, Dependency Injection
-- **Angular Development**: Component-based architecture, TypeScript
 - **Java Fundamentals**: SOLID principles, Design patterns, OOP concepts
-- **Build Tools**: Maven for Java projects, npm for Angular
+- **Build Tools**: Maven for Java projects
 - **Version Control**: Git best practices with proper .gitignore
 
 ## Contributing
